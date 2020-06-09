@@ -1,9 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## for heroku build 
-add "heroku-postbuild": "npm run build" to my scripts
-install: npm i serve --save
-changed my 'start' script to: "start": "serve -s build"
+add "heroku-postbuild": "npm run build" to my scripts <br />
+install: npm i serve --save <br />
+changed my 'start' script to: "start": "serve -s build" <br />
 
 ## API Used: 
 https://covid19.mathdro.id/api/
