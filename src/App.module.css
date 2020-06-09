@@ -1,0 +1,30 @@
+.body {
+  text-align: center;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  padding: 0px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  flex-direction: column;
+  padding: 0px;
+}
+
+.image{
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media( max-width: 770px)
+{
+  .container{
+    margin: 0 10%;
+  }
+  .image{
+    width: 100%;
+    
+  }
+}
