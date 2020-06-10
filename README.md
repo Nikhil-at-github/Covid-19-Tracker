@@ -1,6 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## for heroku build 
+add - in package.json <br />
+  "engines": {          <br />
+    "node": "12.17.0",(current version)    <br />
+    "npm": "6.14.4"    (current version)   <br /> 
+    },  <br />
 add "heroku-postbuild": "npm run build" to my scripts <br />
 install: npm i serve --save <br />
 changed my 'start' script to: "start": "serve -s build" <br />
