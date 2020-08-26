@@ -8,7 +8,7 @@ add - in package.json <br />
     },  <br />
 add "heroku-postbuild": "npm run build" to my scripts <br />
 install: npm i serve --save <br />
-changed my 'start' script to: "start": "serve -s build" <br />
+changed my 'start' script to: "start": "serve -s build"  bydefaults it's "start": "react-scripts start"<br />
 
 ## API Used: 
 https://covid19.mathdro.id/api/
